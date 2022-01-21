@@ -40,7 +40,7 @@ function App() {
   }
   return (
     <>
-    {init?<AppRouter isLoggedIn={isLoggedIn} userObj={userObj} refreshUser={refreshUser}/>:"Initializing..."}
+    {init?<AppRouter isLoggedIn={isLoggedIn} userObj={userObj} refreshUser={refreshUser}/>:<p style={{textAlign:"center"}}>"Initializing..."</p>}
     <footer style={{textAlign:"center"}}>&copy; {new Date().getFullYear()} Twitter</footer>
     </>
   );

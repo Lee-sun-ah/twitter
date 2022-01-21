@@ -10,7 +10,7 @@ const Tweet=({tweetObj,isOwner})=>{
     const [newTweet,setNewTweet]=useState(tweetObj.text);
 
     const onDeleteClick=async()=>{
-        const ok=window.confirm("Are you sure you want to delete thiw tweet?");
+        const ok=window.confirm("Are you sure you want to delete thi tweet?");
         if(ok){
             await deleteDoc(doc(db, `tweets/${tweetObj.id}`));
             await deleteObject(ref(storage, tweetObj.attachmentUrl));

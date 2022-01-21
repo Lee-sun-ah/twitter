@@ -1,7 +1,7 @@
 # twitter
 Cloning Twitter with React and Firebase
 
-
+<img src="https://user-images.githubusercontent.com/62545246/150496892-0fad412d-fa5c-41ef-8451-78e0af84e2fa.gif"/>
 
 <hr/>
 
